@@ -1,0 +1,77 @@
+###########################################################
+####               ICTC Regression Report              ####
+###########################################################
+Total testcase run: 66
+Passed            : 65
+Failed            : 1
+Unknown           : 1
+Used time         : 17m 41s
+-----------------------------------------------------------
+Run log detail:
+log/tc92_disable_decerr_interrupt_189782.log: => Failed
+log/tc101_dynamic_remap_basic_245850.log: => Passed
+log/tc102_old_region_invalid_749738.log: => Passed
+log/tc103_runtime_remap_918847.log: => Passed
+log/tc104_random_remap_stress_872391.log: => Passed
+log/tc105_burst_cross_after_remap_534361.log: => Passed
+log/tc106_reserved_region_after_remap_854708.log: => Passed
+log/tc11_read_default_146474.log: => Passed
+log/tc12_read_write_reserved_820027.log: => Passed
+log/tc13_bams_read_write_access_648985.log: => Passed
+log/tc14_bir_read_write_access_897908.log: => Passed
+log/tc15_bams_byte_access_241189.log: => Passed
+log/tc21_psel0_fixed_wr_815399.log: => Passed
+log/tc22_psel1_fixed_wr_231340.log: => Passed
+log/tc23_psel2_fixed_wr_155994.log: => Passed
+log/tc24_psel0_fixed_wr_err_102303.log: => Passed
+log/tc25_psel1_fixed_wr_err_834982.log: => Passed
+log/tc26_psel2_fixed_wr_err_717678.log: => Passed
+log/tc27_pselx_fixed_wr_random_377565.log: => Passed
+log/tc31_psel0_incr_wr_827536.log: => Passed
+log/tc32_psel1_incr_wr_258148.log: => Passed
+log/tc33_psel2_incr_wr_239185.log: => Passed
+log/tc34_psel0_incr_wr_err_454959.log: => Passed
+log/tc35_psel1_incr_wr_err_618729.log: => Passed
+log/tc36_psel2_incr_wr_err_663642.log: => Passed
+log/tc37_psel01_incr_wr_cross_374599.log: => Passed
+log/tc38_psel12_incr_wr_cross_753776.log: => Passed
+log/tc39_pselx_incr_wr_random_466408.log: => Passed
+log/tc41_psel0_wrap_wr_189943.log: => Passed
+log/tc42_psel1_wrap_wr_167210.log: => Passed
+log/tc43_psel2_wrap_wr_887887.log: => Passed
+log/tc44_psel0_wrap_wr_err_463914.log: => Passed
+log/tc45_psel1_wrap_wr_err_114128.log: => Passed
+log/tc46_psel2_wrap_wr_err_990451.log: => Passed
+log/tc47_psel01_wrap_wr_cross_138147.log: => Passed
+log/tc48_psel12_wrap_wr_cross_316793.log: => Passed
+log/tc49_pselx_wrap_wr_random_284921.log: => Passed
+log/tc51_psel0_fixed_rd_719090.log: => Passed
+log/tc52_psel1_fixed_rd_684103.log: => Passed
+log/tc53_psel2_fixed_rd_632548.log: => Passed
+log/tc54_psel0_fixed_rd_err_366075.log: => Passed
+log/tc55_psel1_fixed_rd_err_220319.log: => Passed
+log/tc56_psel2_fixed_rd_err_569026.log: => Passed
+log/tc57_pselx_fixed_rd_random_915020.log: => Passed
+log/tc61_psel0_incr_rd_697339.log: => Passed
+log/tc62_psel1_incr_rd_419182.log: => Passed
+log/tc63_psel2_incr_rd_835731.log: => Passed
+log/tc64_psel0_incr_rd_err_943265.log: => Passed
+log/tc65_psel1_incr_rd_err_539602.log: => Passed
+log/tc66_psel2_incr_rd_err_106701.log: => Passed
+log/tc67_psel01_incr_rd_cross_835215.log: => Passed
+log/tc68_psel12_incr_rd_cross_303638.log: => Passed
+log/tc69_pselx_incr_rd_random_629786.log: => Passed
+log/tc71_psel0_wrap_rd_870821.log: => Passed
+log/tc72_psel1_wrap_rd_480173.log: => Passed
+log/tc73_psel2_wrap_rd_328152.log: => Passed
+log/tc74_psel0_wrap_rd_err_660243.log: => Passed
+log/tc75_psel1_wrap_rd_err_521549.log: => Passed
+log/tc76_psel2_wrap_rd_err_250231.log: => Passed
+log/tc77_psel01_wrap_rd_cross_404538.log: => Passed
+log/tc78_psel12_wrap_rd_cross_311497.log: => Passed
+log/tc79_pselx_wrap_rd_random_416997.log: => Passed
+log/tc81_wr_rd_random_test_241477.log: => Passed
+log/tc91_enable_decerr_interrupt_891623.log: => Passed
+log/tc93_clear_decerr_interrupt_248809.log: => Passed
+log/tc94_sticky_decerr_interrupt_727050.log: => Passed
+-----------------------------------------------------------
