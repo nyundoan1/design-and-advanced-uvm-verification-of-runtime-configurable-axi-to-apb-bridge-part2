@@ -29,16 +29,6 @@ The project is organized into separate RTL, verification, simulation, and regist
   <img width="1874" height="695" alt="image" src="https://github.com/user-attachments/assets/f30a10a1-e963-4de5-b08b-db9e0dfed9ab" />
 </p>
 
-### Main directories:
-
-- `regmodel/` → Register abstraction model  
-- `rtl/` → RTL design files  
-- `sequences/` → UVM sequences  
-- `sim/` → Simulation scripts / Makefile flow  
-- `tb/` → UVM testbench  
-- `testcases/` → Test library  
-- `vip/` → AXI/APB verification IP
-
 # 2. RTL & UVM Architecture
 ### RTL Architecture
 The bridge is designed with separate AXI clock domains, APB clock domains and runtime configurable logic via APB Register.
