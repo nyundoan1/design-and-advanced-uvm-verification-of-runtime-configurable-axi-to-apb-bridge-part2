@@ -1,14 +1,13 @@
 ###########################################################
-####               ICTC Regression Report              ####
+####                   Regression Report               ####
 ###########################################################
 Total testcase run: 66
-Passed            : 65
-Failed            : 1
-Unknown           : 1
+Passed            : 66
+Failed            : 0
+Unknown           : 0
 Used time         : 17m 41s
 -----------------------------------------------------------
 Run log detail:
-log/tc92_disable_decerr_interrupt_189782.log: => Failed
 log/tc101_dynamic_remap_basic_245850.log: => Passed
 log/tc102_old_region_invalid_749738.log: => Passed
 log/tc103_runtime_remap_918847.log: => Passed
@@ -72,6 +71,7 @@ log/tc78_psel12_wrap_rd_cross_311497.log: => Passed
 log/tc79_pselx_wrap_rd_random_416997.log: => Passed
 log/tc81_wr_rd_random_test_241477.log: => Passed
 log/tc91_enable_decerr_interrupt_891623.log: => Passed
+log/tc92_disable_decerr_interrupt_189782.log: => Passsed
 log/tc93_clear_decerr_interrupt_248809.log: => Passed
 log/tc94_sticky_decerr_interrupt_727050.log: => Passed
 -----------------------------------------------------------
