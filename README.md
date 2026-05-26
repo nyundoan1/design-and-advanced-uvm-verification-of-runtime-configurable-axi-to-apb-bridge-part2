@@ -197,7 +197,8 @@ The verification scope covers protocol behavior, register functionality, error h
 A reusable UVM-based verification environment was developed.
 
 <p align="center">
-  <img width="722" height="474" alt="image" src="https://github.com/user-attachments/assets/1680b0a4-665c-4209-a530-07e3cd2aa61c" />
+  <img width="1312" height="866" alt="image" src="https://github.com/user-attachments/assets/c0d226bf-dd1d-46d8-871b-e7ed72da362e" />
+
 </p>
 
 
