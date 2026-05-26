@@ -4,8 +4,6 @@
 
 ## Project Overview (Graduation Thesis)
 
-This project presents the **RTL design and advanced UVM-based verification** of a **Runtime-Configurable AXI-to-APB Bridge**.
-
 Main project scope includes:
 
 - RTL design using **Verilog**
