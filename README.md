@@ -39,9 +39,8 @@ The project is organized into separate RTL, verification, simulation, and regist
 - `testcases/` → Test library  
 - `vip/` → AXI/APB verification IP
 
-
-# 2. RTL Design Architecture
-
+# 2. RTL & UVM Architecture
+### RTL Architecture
 The bridge is designed with separate AXI clock domains, APB clock domains and runtime configurable logic via APB Register.
 
 <p align="center">
@@ -52,12 +51,16 @@ The bridge is designed with separate AXI clock domains, APB clock domains and ru
   <img width="1810" height="851" alt="image" src="https://github.com/user-attachments/assets/eb9b3914-34a5-4897-8fc8-d3401afeb937" />
 </p>
 
-### Main blocks:
 
-- AXI Clock Domain
-- APB Clock Domain
-  - APB Master
-  - APB Register
+
+### UVM Testbench Architecture
+
+A reusable UVM-based verification environment was developed.
+
+<p align="center">
+  <img width="1312" height="866" alt="image" src="https://github.com/user-attachments/assets/c0d226bf-dd1d-46d8-871b-e7ed72da362e" />
+
+</p>
 
 # 3. Register Specification
 
@@ -192,17 +195,10 @@ The verification scope covers protocol behavior, register functionality, error h
 
 
 
-# 7. UVM Testbench Architecture
-
-A reusable UVM-based verification environment was developed.
-
-<p align="center">
-  <img width="1312" height="866" alt="image" src="https://github.com/user-attachments/assets/c0d226bf-dd1d-46d8-871b-e7ed72da362e" />
-
-</p>
 
 
-# 8. Coverage Results
+
+# 7. Coverage Results
 
 Coverage-driven verification is one of the major objectives of this repository.
 
@@ -222,7 +218,7 @@ Coverage-driven verification is one of the major objectives of this repository.
 
 
 
-# 9. How to Run
+# 8. How to Run
 
 This project supports **single testcase simulation, regression execution, waveform debugging, and coverage analysis**.
 
@@ -344,14 +340,13 @@ This is used to analyze:
 - Verification closure
 
 
-# 10. Author
+# 9. Author
 
-## **Nhan Doan**
+ **Nhan Doan:**
 RTL Design, Verification Environment Development, Testcase Development, RTL Debugging & Bug Fixing  
 **Contact:** 0328 044 046
+<br/>
 
-<br>
-
-## **Van Anh**
+ **Van Anh:**
 VIP Development, Sequence Development, Scoreboard Implementation, Testcase Debugging & Validation  
 **Contact:** 0362 273 140
