@@ -1,24 +1,32 @@
-# Design and Advanced UVM Verification of Runtime-Configurable AXI-to-APB Bridge (Part 2 - With Coverage)
+# Design and Advanced UVM Verification of a Runtime-Configurable AXI-to-APB Bridge
 
-## Project Overview
+## Project Overview (Graduation Thesis)
 
-## Project Overview
+This project presents the **RTL design and advanced UVM-based verification** of a **Runtime-Configurable AXI-to-APB Bridge**.
 
-This project presents the **RTL design and advanced UVM-based verification** of a **Runtime-Configurable AXI-to-APB Bridge**, developed as a **graduation thesis by two contributors**.
+Main project scope includes:
 
-This repository covers the complete verification flow, including RTL design, register specification, UVM environment development, VIP integration, testcase development, coverage closure, regression flow, and FPGA implementation analysis. Therefore, this project already includes and extends beyond **Part 1**, making it unnecessary to refer back to the previous repository.
+- RTL design using **Verilog**
+- UVM-based verification environment development
+- AXI/APB VIP integration
+- Simulation and regression using **QuestaSim**
+- Verification Planning (VPlan) with **70 testcases**
+- FPGA synthesis and implementation using **Xilinx Vivado**
 
-For detailed design methodology, verification flow, and full experimental results, please refer to:
+This repository represents the **final completed version** of the project, covering full RTL design, verification flow, coverage closure, and FPGA evaluation.
+
+For detailed architecture, verification methodology, and full experimental results:
 
 📁 **docs/LuanVanTotNghiep/**
 
----
+
 
 # 1. Project Directory Structure
 
 The project is organized into separate RTL, verification, simulation, and register-model related directories.
 
-<img width="861" height="319" alt="image" src="https://github.com/user-attachments/assets/8d189380-f7fe-461d-a5d1-0609c612436b" />
+<img width="1874" height="695" alt="image" src="https://github.com/user-attachments/assets/f30a10a1-e963-4de5-b08b-db9e0dfed9ab" />
+
 
 
 Main directories:
@@ -178,7 +186,7 @@ A reusable UVM-based verification environment was developed.
 
 <img width="722" height="474" alt="image" src="https://github.com/user-attachments/assets/1680b0a4-665c-4209-a530-07e3cd2aa61c" />
 
----
+
 
 # 8. Coverage Results
 
@@ -191,9 +199,123 @@ Coverage includes:
 - Code Coverage
 <img width="925" height="200" alt="image" src="https://github.com/user-attachments/assets/a5982ffe-c3d4-402b-abd3-0a4e778c1b56" />
 
+# 9. How to Run
+
+This project supports **single testcase simulation, regression execution, waveform debugging, and coverage analysis**.
 
 
-# 9. Author
+
+## Environment Setup
+
+Move to the simulation directory to see Makefile:
+
+```bash
+cd sim/
+```
+
+Each time a new terminal is opened, source the project environment:
+
+```bash
+source project_env.bash
+```
+## Run Single Testcase
+
+Clean previous build:
+
+```bash
+make clean
+```
+
+Compile the design and testbench:
+
+```bash
+make build
+```
+
+Run a specific testcase:
+
+```bash
+make TESTNAME=tc11_read_default
+```
+
+The simulation automatically generates:
+- Log files  
+- Waveform files  
+- Coverage databases  
+
+To open waveform:
+
+```bash
+make wave
+```
+
+
+## Run Regression
+
+After validating all standalone testcases, update:
+
+```bash
+regress.cfg
+```
+
+with the list of testcases to execute.
+
+Then run regression:
+
+```bash
+make clean
+make build
+perl regress.pl
+```
+
+After completion, the regression report will be generated in:
+
+```bash
+sim/regress.rpt
+```
+
+This report shows:
+- PASS testcase  
+- FAIL testcase  
+- Regression summary  
+
+Regression should complete successfully before coverage analysis.
+
+---
+
+## Coverage Merge & Analysis
+
+After regression, multiple `.ucdb` files are generated inside:
+
+```bash
+cov/
+```
+
+If you've got pass all the testcases then Merge all coverage databases by using in /sim:
+
+```bash
+make cov_merge
+```
+
+This creates:
+
+```bash
+cov/IP_MERGE.ucdb
+```
+
+Open merged coverage result:
+
+```bash
+make cov_open
+```
+
+This is used to analyze:
+- Functional Coverage (FC)  
+- Code Coverage  
+- Coverage completeness  
+- Verification closure
+- 
+# 10. Author
 
 **Nhan Doan**  
 RTL Design, Verification Environment Development, Testcase Development, RTL Debugging & Bug Fixing  
