@@ -184,7 +184,7 @@ The verification scope covers protocol behavior, register functionality, error h
 ### Verification Summary
 
 - **6 major verification categories**
-- **70 total directed + constrained-random testcases**
+- **66 total directed + constrained-random testcases**
 - Functional correctness validation
 - Protocol behavior verification
 - Register-level verification
