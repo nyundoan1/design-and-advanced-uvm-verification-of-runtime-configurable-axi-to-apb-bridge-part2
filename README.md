@@ -143,7 +143,7 @@ The verification scope covers protocol behavior, register functionality, error h
 - **APB Register Configuration** → Verification of register read/write behavior, reserved region protection, and byte access handling.
 
 <p align="center">
-  <img width="1709" height="537" alt="image" src="https://github.com/user-attachments/assets/92c0ae47-6899-4e2c-a08f-ae766d6d65d7" />
+  <img width="1847" height="582" alt="image" src="https://github.com/user-attachments/assets/b6c1804d-4b4f-40d8-babe-8407ae84cc2c" />
 </p>
 
 - **AXI Write Transaction** → Validation of AXI write path, burst types, slave decode, and error response behavior.
@@ -185,7 +185,6 @@ The verification scope covers protocol behavior, register functionality, error h
 - Protocol behavior verification
 - Register-level verification
 - Error and corner-case handling
-
 
 
 
