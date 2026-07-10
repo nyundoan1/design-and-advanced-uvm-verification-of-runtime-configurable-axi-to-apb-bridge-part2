@@ -34,7 +34,7 @@ The project is organized into separate RTL, verification, simulation, and regist
 The bridge is designed with separate AXI clock domains, APB clock domains and runtime configurable logic via APB Register.
 
 <p align="center">
-  <img width="945" height="414" alt="image" src="https://github.com/user-attachments/assets/0e00fad1-7179-4219-b85b-f75e0f48d4a4" />
+  <img width="1391" height="551" alt="image" src="https://github.com/user-attachments/assets/ff998156-371d-4386-b776-55d6eaff948d" />
 </p>
 
 <p align="center">
