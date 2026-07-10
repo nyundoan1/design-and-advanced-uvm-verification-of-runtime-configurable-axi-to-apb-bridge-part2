@@ -34,7 +34,8 @@ The project is organized into separate RTL, verification, simulation, and regist
 The bridge is designed with separate AXI clock domains, APB clock domains and runtime configurable logic via APB Register.
 
 <p align="center">
-  <img width="1391" height="551" alt="image" src="https://github.com/user-attachments/assets/ff998156-371d-4386-b776-55d6eaff948d" />
+  <img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/13262dde-91df-449e-a666-3f8e4b2207a8" />
+
 </p>
 
 <p align="center">
@@ -48,7 +49,7 @@ The bridge is designed with separate AXI clock domains, APB clock domains and ru
 A reusable UVM-based verification environment was developed.
 
 <p align="center">
-  <img width="1312" height="866" alt="image" src="https://github.com/user-attachments/assets/c0d226bf-dd1d-46d8-871b-e7ed72da362e" />
+  <img width="1176" height="775" alt="image" src="https://github.com/user-attachments/assets/e88140e9-b525-4c51-97c2-df51e67b71f2" />
 
 </p>
 
