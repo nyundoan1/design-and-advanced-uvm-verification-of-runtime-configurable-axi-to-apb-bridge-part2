@@ -52,6 +52,8 @@ A reusable UVM-based verification environment was developed.
 
 </p>
 
+
+<!--
 # 3. Register Specification
 
 The bridge supports **runtime-configurable APB registers** for dynamic address remapping, memory size allocation, and interrupt handling. These registers define APB slave address regions and support bridge-level configuration during runtime.
@@ -107,10 +109,10 @@ This register manages bridge-level interrupt handling and decode error status.
 
 - **DecErrSt** → Decode Error Status (RW1C)  
 - **DecErrEn** → Decode Error Interrupt Enable
+-->
 
 
-
-# 4. Write Transaction Flow
+# 3. Write Transaction Flow
 
 AXI write transactions are converted into APB write operations.
 
@@ -120,7 +122,7 @@ AXI write transactions are converted into APB write operations.
 
 
 
-# 5. Read Transaction Flow
+# 4. Read Transaction Flow
 
 AXI read transactions are converted into APB read accesses.
 
@@ -130,7 +132,7 @@ AXI read transactions are converted into APB read accesses.
 
 
 
-# 6. Verification Plan (VPlan)
+# 5. Verification Plan (VPlan)
 
 A structured verification plan was developed to ensure systematic functional validation of the **Runtime-Configurable AXI-to-APB Bridge**.  
 The verification scope covers protocol behavior, register functionality, error handling, remap logic, and runtime configuration scenarios.
@@ -188,7 +190,7 @@ The verification scope covers protocol behavior, register functionality, error h
 
 
 
-# 7. Coverage Results
+# 6. Coverage Results
 
 Coverage-driven verification is one of the major objectives of this repository.
 
@@ -208,7 +210,7 @@ Coverage-driven verification is one of the major objectives of this repository.
 
 
 
-# 8. How to Run
+# 7. How to Run
 
 This project supports **single testcase simulation, regression execution, waveform debugging, and coverage analysis**.
 
@@ -329,7 +331,7 @@ This is used to analyze:
 - Coverage completeness
 - Verification closure
 
-
+<!--
 # 9. Author
 
  **Nhan Doan:**
@@ -340,3 +342,4 @@ RTL Design, Verification Environment Development, Testcase Development, RTL Debu
  **Van Anh:**
 VIP Development, Sequence Development, Scoreboard Implementation, Testcase Debugging & Validation  
 **Contact:** 0362 273 140
+-->
