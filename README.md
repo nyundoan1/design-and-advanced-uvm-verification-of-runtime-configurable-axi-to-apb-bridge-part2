@@ -10,7 +10,7 @@ Main project scope includes:
 - UVM-based verification environment development
 - AXI/APB VIP integration
 - Simulation and regression using **QuestaSim**
-- Verification Planning (VPlan) with **70 testcases**
+- Verification Planning (VPlan) with **66 testcases**
 - FPGA synthesis and implementation using **Xilinx Vivado**
 
 This repository represents the **final completed version** of the project, covering full RTL design, verification flow, coverage closure, and FPGA evaluation.
