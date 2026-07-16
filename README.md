@@ -7,7 +7,7 @@
 Main project scope includes:
 
 - RTL design using **Verilog**
-- UVM-based verification environment development
+- Verification environment development via **UVM**
 - AXI/APB VIP integration
 - Simulation and regression using **QuestaSim**
 - Verification Planning (VPlan) with **66 testcases**
